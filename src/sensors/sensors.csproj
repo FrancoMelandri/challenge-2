@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../interfaces/interfaces.csproj" />
+
     <PackageReference Include="Microsoft.Orleans.Core" Version="2.0.0" />
   </ItemGroup>
 
